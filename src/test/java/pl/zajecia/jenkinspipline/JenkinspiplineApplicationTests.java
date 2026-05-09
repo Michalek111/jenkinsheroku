@@ -26,7 +26,7 @@ class JenkinspiplineApplicationTests {
         this.mvc.perform(MockMvcRequestBuilders.get("/"))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(content().string("Hello Jenkinspipline"));
+                .andExpect(content().string("Hello NIE Jenkinspipline"));
 
     }
 
